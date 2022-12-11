@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:4000/`, {
+      .get(`https://picnic-production.up.railway.app/`, {
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
